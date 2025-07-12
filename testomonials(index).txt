@@ -1,0 +1,64 @@
+
+<!-- testimonials -->
+	<div class="testimonials">
+		<div class="container">
+			<h3>testimonials</h3>
+			<p class="quia">what our customers say</p>
+			<div class="w3_testimonials_grids">
+				<section class="slider">
+					<div class="flexslider">
+						<ul class="slides">
+							<li>	
+								<div class="w3_testimonials_grid">
+									<img src="images/1.png" alt=" " class="img-responsive" />
+									<h4><i>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil 
+										impedit quo minus id quod maxime placeat facere possimus, omnis voluptas.</i></h4>
+									<h5>Mr. Jacob</h5>
+									<p>Founder</p>
+								</div>
+							</li>
+							<li>	
+								<div class="w3_testimonials_grid">
+									<img src="images/2.png" alt=" " class="img-responsive" />
+									<h4><i>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil 
+										impedit quo minus id quod maxime placeat facere possimus, omnis voluptas.</i></h4>
+									<h5>Mr. Jhon Kheler</h5>
+									<p>Transport Agent</p>
+								</div>
+							</li>
+							<li>	
+								<div class="w3_testimonials_grid">
+									<img src="images/3.png" alt=" " class="img-responsive" />
+									<h4><i>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil 
+										impedit quo minus id quod maxime placeat facere possimus, omnis voluptas.</i></h4>
+									<h5>Thomas Carl</h5>
+									<p>Transport Agent</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<!-- flexSlider -->
+					<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+					<script defer src="js/jquery.flexslider.js"></script>
+					<script type="text/javascript">
+					$(window).load(function(){
+					  $('.flexslider').flexslider({
+						animation: "slide",
+						start: function(slider){
+						  $('body').removeClass('loading');
+						}
+					  });
+					});
+				  </script>
+				<!-- //flexSlider -->
+			</div>
+		</div>
+	</div>
+<!-- //testimonials -->
+<!-- footer -->
+	<?php include_once('includes/footer.php');?>
+<!-- //footer -->
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
